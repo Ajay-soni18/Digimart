@@ -44,6 +44,11 @@ INSTALLED_APPS = [
     # Third party
     "rest_framework",
     "corsheaders",
+    # Local apps — one per domain entity (see .agent/architecture.md §3)
+    "users",
+    "products",
+    "purchases",
+    "payments",
 ]
 
 MIDDLEWARE = [
